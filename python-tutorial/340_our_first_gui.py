@@ -25,3 +25,14 @@ for row in picture:
         else:
             print(' ', end='')
     print()
+
+fill = '*'
+empty = ' '
+
+for row in picture:
+    for column in row:
+        if column:
+            print(fill, end='')
+        else:
+            print(empty, end='')
+    print()
