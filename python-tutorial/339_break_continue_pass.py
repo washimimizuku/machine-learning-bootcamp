@@ -8,6 +8,8 @@ i = 0
 while i < len(my_list):
     print(my_list[i])
     i += 1
-    pass # Does nothing
     continue # skips to next loop
     print('Not printed')
+
+def some_function():
+    pass # Does nothing
